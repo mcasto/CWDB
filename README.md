@@ -12,7 +12,7 @@ Recently, I discovered [UserSpice](https://github.com/mudmin/UserSpice4), and it
 All of my projects to date have used either MySQL or SQLite databases. As such, this class currently only has methods to deal with those databases. I may modify it over time to handle others such as PostgreSQL, but that is a low priority for me.
 
 # Install
-Modify db_config.inc.php to suit your needs. Include or require database.class.php & instantiate it. On instantiation, it will use the DEFAULT_DB set in confir, or you can call it with a database name, which will override the default database set in db_config.
+Modify db_config.inc.php to suit your needs. Include or require database.class.php & instantiate it. On instantiation, it will use the DEFAULT_DB set in config, or you can call it with a database name, which will override the default database set in db_config.
 
 # Methods
 1. listTables()
@@ -51,3 +51,5 @@ Modify db_config.inc.php to suit your needs. Include or require database.class.p
     * Returns the last record of $db->results
 13. count()
     * Returns the number of records in $db->results
+    
+# See example/index.php for usage examples
