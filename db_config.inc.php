@@ -18,7 +18,7 @@
   define("DB_PASS", "root");
 
   //Default database - OPTIONAL (for SQLite, use the relative/path/to/file)
-  define("DEFAULT_DB", "pagination_magic");
+  define("DEFAULT_DB", "");
 
   /*
 		You can set the database when you instantiate the database object.
